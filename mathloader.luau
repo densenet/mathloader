@@ -1,4 +1,6 @@
 -- @densenet
+-- SPDX-License-Identifier: Apache-2.0
+
 -- mathloader (3rd variant)
 
 -- this variant emits bitcode with indices embedded like mathloader

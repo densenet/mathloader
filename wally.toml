@@ -1,0 +1,10 @@
+[package]
+name = "polychromatist/mathloader"
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+description = "A loadstring-like product kernel loader"
+authors = ["polychromatist"]
+license = "Apache-2.0"
+
+[dependencies]

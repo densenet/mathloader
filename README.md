@@ -24,10 +24,9 @@ t[4]=a[4]*b[1]-a[3]*b[2]+a[2]*b[3]+a[1]*b[4]
 ]]
 ```
 
-`1 -> scalar; 2 -> k; 3 -> j; 4 -> i`
-
 The above example mostly illustrates the acceptable syntax for mathloader.
-The leading term should be positive.
+The leading term is always positive.
+In this example, you can think of the indices as follows: `1 -> scalar; 2 -> k; 3 -> j; 4 -> i`
 
 Now, pass through `compile(idxwidth, src)`:
 

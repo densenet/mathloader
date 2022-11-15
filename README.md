@@ -26,7 +26,7 @@ Now, pass through `kcompile(idxwidth, src)`:
 
 ```lua
 bitcode = kcompile(2, src)
---> { 0x57fad701, 0xe29eaf48, 0x66cf7789, 0xca }
+--> { 0x5feb5c21, 0xa9eaf486, 0xcedde278, 0xca66 }
 ```
 
 The indices and instructions are encoded in the bitcode.

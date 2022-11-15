@@ -351,9 +351,9 @@ if __RELEASE then
 		kcompile = kcompile,
 		kdata = kdata,
 		kexe = kexe,
-		kload = function(...) kexe(kdata(...)) end,
+		kload = function(...) return kexe(kdata(...)) end,
 		mdata = mdata,
 		mexe = mexe,
-		mload = function(...) mexe(mdata(...)) end,
+		mload = function(...) return mexe(mdata(...)) end,
 	}
 end
